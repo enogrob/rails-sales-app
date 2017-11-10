@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring-commands-rspec',  group: :development
 gem 'web-console', '~> 2.0', group: :development
+gem 'rails_admin'
 
 group :development, :test do
   gem 'byebug'

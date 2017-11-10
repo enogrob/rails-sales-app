@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>RailsDependency</ID>
+  <OriginalElement>Sale</OriginalElement>
+  <nodes>
+    <node x="1368.0" y="158.18055555555554">Address</node>
+    <node x="636.0" y="275.0">User</node>
+    <node x="1049.0" y="0.0">Client</node>
+    <node x="1002.0" y="631.4166666666667">ProductQuantity</node>
+    <node x="270.0" y="251.25">Sale</node>
+    <node x="636.0" y="587.0">Product</node>
+    <node x="0.0" y="341.0">Comission</node>
+    <node x="695.0" y="73.0">Discount</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="User" target="ProductQuantity">
+      <point x="143.0" y="90.66666666666669" />
+      <point x="-143.0" y="-24.66666666666663" />
+    </edge>
+    <edge source="Sale" target="Client">
+      <point x="143.0" y="-82.39999999999998" />
+      <point x="636.0" y="62.5" />
+      <point x="-96.0" y="-62.5" />
+    </edge>
+    <edge source="Sale" target="User">
+      <point x="143.0" y="41.19999999999999" />
+      <point x="-143.0" y="-0.0" />
+    </edge>
+    <edge source="User" target="Sale">
+      <point x="-143.0" y="-90.66666666666669" />
+      <point x="143.0" y="-0.0" />
+    </edge>
+    <edge source="User" target="Comission">
+      <point x="-143.0" y="90.66666666666669" />
+      <point x="556.0" y="467.75" />
+      <point x="270.0" y="467.75" />
+      <point x="95.0" y="35.0" />
+    </edge>
+    <edge source="Sale" target="Discount">
+      <point x="143.0" y="-41.19999999999999" />
+      <point x="636.0" y="154.0" />
+      <point x="-84.0" y="-0.0" />
+    </edge>
+    <edge source="Sale" target="ProductQuantity">
+      <point x="143.0" y="82.39999999999998" />
+      <point x="636.0" y="715.5" />
+      <point x="922.0" y="715.5" />
+      <point x="-143.0" y="24.66666666666663" />
+    </edge>
+    <edge source="User" target="Address">
+      <point x="143.0" y="-0.0" />
+      <point x="1288.0" y="411.0" />
+      <point x="-91.0" y="51.5" />
+    </edge>
+    <edge source="Product" target="ProductQuantity">
+      <point x="143.0" y="-0.0" />
+      <point x="-143.0" y="-0.0" />
+    </edge>
+    <edge source="Comission" target="Sale">
+      <point x="95.0" y="-35.0" />
+      <point x="-143.0" y="-0.0" />
+    </edge>
+    <edge source="User" target="Client">
+      <point x="143.0" y="-90.66666666666669" />
+      <point x="1002.0" y="187.5" />
+      <point x="-96.0" y="62.5" />
+    </edge>
+    <edge source="Client" target="Address">
+      <point x="96.0" y="-0.0" />
+      <point x="1288.0" y="125.0" />
+      <point x="-91.0" y="-51.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.34394904458598724" x="775.0" y="358.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Association fields</Category>
+    <Category>Migration fields</Category>
+  </Categories>
+</Diagram>
+

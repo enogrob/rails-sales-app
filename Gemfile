@@ -13,6 +13,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring-commands-rspec',  group: :development
 gem 'web-console', '~> 2.0', group: :development
 gem 'rails_admin'
+gem 'devise'
+gem 'cancancan', '~> 1.15.0'
 
 group :development, :test do
   gem 'byebug'
